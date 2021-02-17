@@ -1,0 +1,31 @@
+.checkout {
+  padding: 20px;
+  display: flex;
+  min-height: 100vh;
+}
+
+.checkout-left {
+  width: 80%;
+}
+
+.checkout-ad {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.checkout-message {
+  margin-left: 15px;
+}
+
+.checkout-noitems {
+  margin-left: 10px;
+  height: 70vh;
+}
+
+.checkout-empty-cart {
+  margin-bottom: 10px;
+}
+
+.checkout-right {
+  width: 20%;
+}

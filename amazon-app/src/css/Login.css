@@ -1,0 +1,126 @@
+.login {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.login-image {
+  width: 100px;
+  object-fit: contain;
+  margin-top: 15px;
+}
+
+.login-container {
+  width: 350px;
+  height: 300px;
+  border: 1px solid rgb(219, 218, 218);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.login-container > h1 {
+  margin-left: 30px;
+  margin-top: 20px;
+  font-weight: 450;
+  font-size: 30px;
+}
+
+.login-container > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 20px;
+  padding: 10px;
+}
+
+.login-button {
+  background-color: #f1cd72;
+  border: 1px solid;
+  border-color: #bb973d #79632c #a58a46;
+  font-weight: 600;
+  padding: 7px;
+  max-width: 400px;
+  width: 290px;
+
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+form > input {
+  padding: 7px;
+  border: 1px solid rgb(168, 165, 165);
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+form > h5 {
+  margin-bottom: 3px;
+}
+
+form p {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-container > p {
+  font-size: 12px;
+  color: rgb(95, 91, 91);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.signup-container > button {
+  width: 350px;
+  padding: 7px;
+  background-color: rgb(238, 237, 237);
+  border: 1px solid grey;
+  border-radius: 3px;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.login-footer {
+  border-top: 1px solid rgb(202, 200, 200);
+  margin-top: 40px;
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-footer-notes {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-terms {
+  display: flex;
+  font-size: 11px;
+  font-weight: 500;
+  color: rgb(12, 12, 211);
+  margin-bottom: 10px;
+}
+
+.login-terms > p {
+  margin-left: 15px;
+}
+
+.login-copyright {
+  font-size: 11px;
+  margin-left: 20px;
+  color: rgb(48, 47, 47);
+  font-weight: 500;
+}

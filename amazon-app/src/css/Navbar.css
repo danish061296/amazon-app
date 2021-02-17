@@ -1,0 +1,100 @@
+.navbar {
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.navbar-logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 18px 20px 2px;
+}
+
+.navbar-location {
+  display: flex;
+}
+
+.navbar-room-icon {
+  color: white;
+}
+
+.navbar-hello-text {
+  font-size: 10px;
+}
+
+.navbar-address {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-right: 10px;
+}
+
+.navbar-search {
+  display: flex;
+  flex: 1;
+}
+
+.navbar-options {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-option {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  margin: 0px 10px;
+}
+
+.navbar-basket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.basket-count {
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  margin: 5px 10px;
+  color: #ebae5f;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.navbar-option-one {
+  font-size: 10px;
+}
+
+.navbar-option-two {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.cart {
+  margin-right: 25px;
+}
+
+.navbar-search-input {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.navbar-search-icon {
+  background-color: #ecb56d;
+  padding: 5px;
+  height: 22px !important;
+  border-radius: 0px 5px 5px 0px;
+}
